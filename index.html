@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EMA Finanzas</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="EMA Finanzas">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#0b1f3a">
+<meta name="robots" content="noindex, nofollow">
+<link rel="apple-touch-icon" href="icono-180.png">
+<link rel="icon" type="image/png" href="icono-256.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  :root { color-scheme: light dark; }
+  html, body { margin: 0; height: 100%; background: #0b1f3a; color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { min-height: 100%; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; gap: 18px; padding: 24px; box-sizing: border-box; text-align: center; }
+  img { width: 96px; height: 96px; border-radius: 22px; }
+  a { color: #fff; font-size: 17px; padding: 12px 22px; border: 1px solid rgba(255,255,255,.4);
+    border-radius: 999px; text-decoration: none; }
+  p { margin: 0; opacity: .8; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <img src="icono-256.png" alt="Estévez Misle & Asociados">
+  <p>Abriendo EMA Financial Track…</p>
+  <a id="ir" href="https://script.google.com/a/macros/ema.com.ve/s/AKfycbxqZegIeLdnjMQNrJoB7Vy9OqoJ1TIdQaKF0meT2edVwNRmt8aMpWKKYIhyIvO4j37ewA/exec">Abrir la app</a>
+</main>
+<script>
+  // Página de entrada del ícono del teléfono: lleva el logo de la Firma y abre la app.
+  location.replace(document.getElementById('ir').href);
+</script>
+</body>
+</html>
